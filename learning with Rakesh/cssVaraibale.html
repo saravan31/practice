@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css variable</title>
+    <style>
+      :root {
+        --primarycolor: orange;
+        --maintransitions: all 0.4s linear;
+        --secondarycolor: pink;
+      }
+
+      .heading {
+        color: var(--primarycolor);
+      }
+      .heading:hover {
+        color: var(--secondarycolor);
+        transition: var(--maintransitions);
+      }
+
+      .secondheading {
+        color: var(--primarycolor);
+      }
+
+      .thirdheading {
+        color: var(--primarycolor);
+      }
+
+      /* .heading {
+        color: brown;
+      }
+      .text {
+        color: blue;
+      }
+
+      .maintext {
+        color: brown;
+      }
+
+      .secondheading {
+        color: brown;
+      }
+      .thirdheading {
+        color: brown;
+      } */
+    </style>
+  </head>
+
+  <body>
+    <h1 class="heading">this head</h1>
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et impedit ipsam
+      laboriosam ut pariatur. Quisquam qui quidem exercitationem, ipsa saepe
+      velit delectus voluptatum sunt, soluta aliquam id repellendus amet
+      adipisci.
+    </p>
+    <div class="mainDiv">
+      <p class="maintext">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+        voluptatibus perferendis corrupti dicta debitis, quis doloremque aliquid
+        error nam ab?
+      </p>
+    </div>
+    <h3 class="secondheading">Another Heading</h3>
+    <h3 class="thirdheading">this third heading</h3>
+  </body>
+</html>
