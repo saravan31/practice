@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transitions</title>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+      }
+      /* div:hover {
+        background-color: black;
+      } */
+      .one {
+        background-color: blue;
+      }
+      .two {
+        background-color: brown;
+      }
+      .three {
+        background-color: chocolate;
+        /* transition-property: background, border-radius;
+        transition-duration: 3s, 1s;
+        transition-delay: 5s; */
+        /* transition: background 4s 0.1s, border-radius 5s; */
+        /* transition: all 3s;                                    `                                        */
+      }
+      .three:hover {
+        border-radius: 50%;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- transition means change over time
+     -->
+
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body>
+</html>

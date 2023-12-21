@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animations</title>
+    <style>
+      div {
+        width: 200px;
+        height: 100px;
+        color: white;
+        margin: 15px 0px;
+      }
+      .transition {
+        transition: all 1s linear;
+        background-color: red;
+      }
+      .transition:hover {
+        transform: translate(100px);
+        background-color: blueviolet;
+      }
+      .animation {
+        background-color: green;
+        animation-name: movinganimations;
+        animation-duration: 20s;
+        animation-iteration-count: 2;
+      }
+
+      @keyframes movinganimations {
+        0% {
+          transform: translateX(20px);
+        }
+        50% {
+          transform: translateX(200px);
+          background-color: black;
+
+          border-radius: 50%;
+        }
+        75% {
+          transform: translateX(-20px);
+          background-color: chartreuse;
+        }
+        100% {
+          transform: translateX(20px);
+          background-color: crimson;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="transition">transition</div>
+    <div class="animation">animation</div>
+  </body>
+</html>
