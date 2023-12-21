@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>positions</title>
+    <style>
+      div {
+        border: 5px solid red;
+        background-color: blue;
+        margin-top: 40px;
+      }
+      .one {
+        /* position: relative;  it means to move the element from its place */
+        top: 10rem;
+        background-color: yellow;
+        color: white;
+      }
+      .two {
+        background: cyan;
+        color: chocolate;
+        position: relative;
+      }
+      .special {
+        color: darkgreen;
+        position: absolute;
+        top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="one">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+        quia, consequatur fuga laborum eaque quisquam cupiditate. Tempora
+        commodi sed iusto.
+      </p>
+      <p class="two">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quae
+        architecto unde, quos harum sint facere dolore distinctio cupiditate
+        aperiam.<span class="special">HEY i.m absolute</span>
+      </p>
+    </div>
+  </body>
+</html>
