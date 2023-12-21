@@ -1,0 +1,33 @@
+/* div{
+    background-color: red;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+} */
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: blue;
+    color: darkorange;
+    /* display:block; */
+    display: inline-block;
+    padding: 5px 5px;
+    margin:7px;
+    
+}

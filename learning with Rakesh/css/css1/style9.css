@@ -1,0 +1,8 @@
+h1{
+    height: 350px;
+    width: 800px;
+    background: url("https://www.bing.com/th?id=OSK.dc63566cea4a0f87db5104d1d367e49e&w=156&h=112&c=7&o=6&pid=SANGAM");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: 50% 50%;
+}

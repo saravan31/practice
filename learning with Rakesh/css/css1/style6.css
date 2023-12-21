@@ -1,0 +1,24 @@
+
+.buttons{
+    margin-top: 10rem;
+
+}
+a{
+    background-color: red;
+    margin: 5rem;
+    padding: 0.7rem 1.5rem ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.one{
+    border:solid 10px green
+}
+.two{
+  /* outline-style: solid;
+  outline-width: 10px;
+  outline-color: green; */
+  /* padding: 100px; */
+  outline: solid 10px green;
+  outline-offset: -30px;
+}

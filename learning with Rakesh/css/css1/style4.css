@@ -1,0 +1,19 @@
+.one{
+    line-height: 2.5em;
+}
+.two{
+    letter-spacing: 3px;
+}
+
+.three{
+    word-spacing: 1px;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: overline;
+
+}

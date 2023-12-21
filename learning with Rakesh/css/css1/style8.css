@@ -1,0 +1,16 @@
+h1{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px;
+   
+    
+}
+.none{
+    display: none;
+}
+.visibilty{
+    visibility: hidden;
+}
+.opacity-0{
+     opacity: 0;
+}
